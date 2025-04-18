@@ -6,9 +6,9 @@ public class Ex09 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
-				
-		System.out.println("과목을 선택하세요.(1. java 2. C  3. C++ 4. python)");
+			
+		System.out.println("과목을 선택하세요.");
+		System.out.println("(1. java 2. C  3. C++ 4. python)");
 		System.out.print("과목번호: ");
 		int number = sc.nextInt();
 		if(number == 1) {
@@ -32,3 +32,4 @@ public class Ex09 {
 	}
 
 }
+
