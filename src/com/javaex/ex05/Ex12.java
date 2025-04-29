@@ -1,16 +1,21 @@
 package com.javaex.ex05;
 
 public class Ex12 {
+
 	public static void main(String[] args) {
-		
-		String[] strArr = new String[3];
-		strArr[0] = "안녕하세요";
-		strArr[1] = "hello";
-		strArr[2] = "hi";
-		
-		for(int i=0; i<strArr.length; i++) {
-			System.out.println(strArr[i]);
-		}
+				
+		for(int i=0; i<args.length; i++) {
+			if(args[i].equals("-v")) {
+				System.out.println("버전3.0");
+			}
 			
+			if(args[i].equals("-d")) {
+				System.out.println("20250428");
+			}
+			
+			if(args[i].equals("-n")) {
+				System.out.println("미스터김");
+			}
+		}
 	}
 }
